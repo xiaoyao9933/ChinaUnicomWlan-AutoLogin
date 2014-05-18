@@ -10,6 +10,6 @@ How to use it
 
 2. And run it by:
 
-    python UnicommWlan.py
+    python UnicomWlan.py
 
 You can set it as a script in /etc/init.d in OpenWRT.
