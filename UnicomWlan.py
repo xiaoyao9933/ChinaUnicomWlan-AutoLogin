@@ -1,6 +1,6 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-  
-# Auto login the unicomm wlan 
+# Auto login the unicom wlan 
 # By Lu CHAO(me@chao.lu) ,2013 10 12.
 
 from urllib2 import build_opener,HTTPCookieProcessor
