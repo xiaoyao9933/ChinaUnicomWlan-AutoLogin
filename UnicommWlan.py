@@ -25,9 +25,9 @@ def LoginWlan(user,password,address):
         #生成Post数据，含有登陆用户名密码。
         data = urlencode({"username":user,"password":password,"passwordType":6,"wlanuserip":"","userOpenAddress":address,"checkbox":0,"basname":"","setUserOnline":"","sap":"","macAddr":"","bandMacAuth":0,"isMacAuth":"","basPushUrl":"http%253A%252F%252F202.106.46.37%252F","passwordkey":""})
         #以post的方法访问登陆页面，访问之后cookieJar会自定保存cookie
-        opener.open(index_page)
+        opener.open(index_page,timeout=20)
         #以带cookie的方式访问页面ss
-        op=opener.open("http://202.106.46.37/login.do",data)
+        op=opener.open("http://202.106.46.37/login.do",data,timeout=20)
         #读取页面源码
         data= op.read()
         if 'success' in data:
