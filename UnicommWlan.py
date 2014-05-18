@@ -42,7 +42,7 @@ def LoginWlan(user,password,address):
         return
     except Exception,e:
         print str(e)
-file=open("/var/log/autologin.log",'w')
+file=open("autologin.log",'w')
 sys.stdout=file
 sys.stderr=file
 while loop:
