@@ -1,7 +1,7 @@
 UnicomWlan
 ===========
 
-Auto login to the ChinaUnicom Wifi and keep alive all the time.  It's useful in OpenWRT routers.
+Autologin to the ChinaUnicom Wifi and keep alive all the time.  It's useful in OpenWRT routers.
 
 How to use it
 =============
